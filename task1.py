@@ -19,14 +19,19 @@ def playsound4(event):
     print(event)
     p.playsound("swampizzo.mp3", block=False)
 
+def playsound5(event):
+    print(event)
+    p.playsound("chickenjocky.mp3", block=False)
+
 win = tk.Tk()
 win.attributes('-topmost',True)
-win.geometry("500x100")
+win.geometry("530x100")
 
 lobotomy = PhotoImage(file="lobotomypng.png")
 carti = PhotoImage(file="carti.png")
 ye = PhotoImage(file="ye.png")
 swampizzo = PhotoImage(file="swampizzo.png")
+steve = PhotoImage(file="chickenjocky.png")
 
 b1 =  tk.Button(win, image=lobotomy)
 b1.bind("<Button>",playsound1)
@@ -36,10 +41,13 @@ b3 =  tk.Button(win, image=ye)
 b3.bind("<Button>",playsound3)
 b4 =  tk.Button(win, image=swampizzo)
 b4.bind("<Button>",playsound4)
+b5 =  tk.Button(win, image=steve)
+b5.bind("<Button>",playsound5)
 
 b1.grid(row=0, column=0)
 b2.grid(row=0, column=1)
 b3.grid(row=0, column=2)
 b4.grid(row=0, column=3)
+b5.grid(row=0, column=4)
 
 win.mainloop()
