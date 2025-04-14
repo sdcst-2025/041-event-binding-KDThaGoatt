@@ -1,0 +1,35 @@
+#div1 {
+    position:absolute;
+top: 15px;
+left: 15px;
+border:2px solid black;
+border-radius: 5px
+}
+#div2 {
+    position:absolute;
+top: 15px;
+left: 128px;
+border:2px solid black;
+border-radius: 5px
+}
+#div3 {
+    position:absolute;
+top: 15px;
+left: 241px;
+border:2px solid black;
+border-radius: 5px
+}
+#div4 {
+    position:absolute;
+top: 15px;
+left: 354px;
+border:2px solid black;
+border-radius: 5px
+}
+#div5 {
+    position:absolute;
+top: 15px;
+left: 466px;
+border:2px solid black;
+border-radius: 5px
+}
